@@ -10,11 +10,12 @@ This is an informal project. My goal is to use some common data analysis tools t
 
 ## Contains:
 ### Notebooks:
-- *NishinoDMRG-Authors.ipynb*: A notebook that studies the relations between the authors as inferred from their collaborations.
-- *NishinoDMRG-Abstracts.ipynb*: A notebook that studies the most common topics in the dataset using probabilistic topic modeling.
+- [*NishinoDMRG-Authors.ipynb*](https://nbviewer.jupyter.org/github/s-montes/NishinoArXiv/blob/master/notebooks/NishinoDMRG-Authors.ipynb): A notebook that studies the relations between the authors as inferred from their collaborations.
+- [*NishinoDMRG-Abstracts.ipynb*](https://nbviewer.jupyter.org/github/s-montes/NishinoArXiv/blob/master/notebooks/NishinoDMRG-Abstracts.ipynb): A notebook that studies the most common topics in the dataset using probabilistic topic modeling.
 - *prolificGraph.pdf*: Collaboration graph of the most prolific authors in the dataset.
-- 
+
 ### Data
+Messy scripts:
 - *ExtractingIDs.ipynb*: Jupyter notebook (in R) for scrapping all the arXiv ids from Nishino's webpage.
 - *getArXivInformation.R*: Script for running the [arXiv API](https://github.com/ropensci/aRxiv) using the list of ids.
 - *NishinoPreprints.csv*: Relevant information about the preprints in Nishino's list (arXiv ID, title, authors, abstract, submission date) (between January 1998 and March 2018).
